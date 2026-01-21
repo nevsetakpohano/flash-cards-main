@@ -1,0 +1,42 @@
+{
+  "info": {
+    "_postman_id": "7c143c37-6977-4531-a2f6-eb53e91be673",
+    "name": "flashcards project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40719941"
+  },
+  "item": [
+    {
+      "name": "GET ALL",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "added a word",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "tried deleting",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "updated word status",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
