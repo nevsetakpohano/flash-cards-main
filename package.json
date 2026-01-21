@@ -1,0 +1,27 @@
+{
+  "name": "flashcards-app",
+  "version": "1.0.0",
+  "description": "console flashcards app for learning new words",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:unit": "jest word.test.js",
+    "test:e2e": "jest e2e.test.js",
+    "test:all": "jest --coverage"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jest": "^29.7.0",
+    "mongodb": "^6.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.4.3",
+    "nodemon": "^3.0.2",
+    "supertest": "^7.2.2"
+  }
+}
